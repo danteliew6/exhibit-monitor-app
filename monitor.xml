@@ -1,0 +1,44 @@
+<configuration>
+  <!-- File processing settings -->
+  <fileProcessing>
+    <!-- Directory where the application monitors for incoming files -->
+    <!-- To replace this -->
+    <inputDirectory>./input</inputDirectory>
+
+    <!-- Directory where the processed files will be moved -->
+    <!-- To replace this -->
+    <processedDirectory>./output</processedDirectory>
+
+    <!-- Time settings -->
+    <!-- Specify the grace period in minutes -->
+    <gracePeriod>
+      <!-- Grace period for file type A -->
+      <fileTypeA>10</fileTypeA>
+
+      <!-- Grace period for file type B -->
+      <fileTypeB>5</fileTypeB>
+
+      <!-- Grace period for file type C -->
+      <fileTypeC>15</fileTypeC>
+    </gracePeriod>
+  </fileProcessing>
+
+  <!-- Database settings -->
+  <database>
+    <!-- Database connection settings -->
+    <connection>
+      <host>localhost</host>
+      <port>3306</port>
+      <databaseName>your_database_name</databaseName>
+      <username>your_username</username>
+      <password>your_password</password>
+    </connection>
+
+    <!-- Table settings -->
+    <table>
+      <!-- Specify the table name where the data will be inserted -->
+        <!-- To replace this -->
+      <name>your_table_name</name>
+    </table>
+  </database>
+</configuration>
