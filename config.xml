@@ -1,14 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <exhibit>
   <filegroup>
     <fileStructure>
       <column name = "Index"/>
       <column name = "Name"/>
       <column name = "EAN"/>
-    <fileStructure>
-    <fileName>
+    </fileStructure>
       <file name="products-1000.csv" time = "11.45" graceperiod = "60"/>
+  </filegroup>
+
   <filegroup>
-    <filegroup>
     <fileStructure>
       <column name = "Index"/>
       <column name = "User Id"/>
@@ -19,7 +20,7 @@
       <column name = "Phone"/>
       <column name = "Date of birth"/>
       <column name = "Job Title"/>
-    <fileStructure>
-    <fileName>
+    </fileStructure>
       <file name="people-10000.csv" time = "11.45" graceperiod = "120"/>
-  <filegroup>
+  </filegroup>
+</exhibit>
