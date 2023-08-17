@@ -1,4 +1,4 @@
-<configuration>
+<<configuration>
   <!-- File processing settings -->
   <fileProcessing>
     <!-- Directory where the application monitors for incoming files -->
@@ -41,4 +41,4 @@
       <name>your_table_name</name>
     </table>
   </database>
-</configuration>
+</configuration>>
